@@ -1,0 +1,13 @@
+[package]
+name = "rust-vb-project-template"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+fixed = "1.29"
+vb-graphics = { git = "https://github.com/SupernaviX/rust-vb-platform.git", rev = "bc38afb" }
+vb-rt = { git = "https://github.com/SupernaviX/rust-vb-platform.git", rev = "bc38afb" }
+
+[build-dependencies]
+vb-graphics-build = { git = "https://github.com/SupernaviX/rust-vb-platform.git", rev = "bc38afb" }
+vb-rt-build = { git = "https://github.com/SupernaviX/rust-vb-platform.git", rev = "bc38afb" }

@@ -1,0 +1,7 @@
+[image.background]
+chardata = "all"
+file = "assets/background.png"
+
+[image.smile]
+chardata = "all"
+file = "assets/smile.png"

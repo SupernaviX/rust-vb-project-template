@@ -1,0 +1,6 @@
+[template]
+exclude = ["*.png"]
+
+[placeholders]
+maker-code = { prompt = "Enter a two-character maker code", type = "string", regex = "[ -~]{2}" }
+game-code = { prompt = "Enter a four-character game code", type = "string", regex = "[ -~]{4}" }
