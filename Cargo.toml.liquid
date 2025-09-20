@@ -1,0 +1,17 @@
+[package]
+name = "{{project-name}}"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+fixed = "1.29"
+vb-graphics = { git = "https://github.com/SupernaviX/rust-vb-platform.git", rev = "db60d12" }
+vb-rt = { git = "https://github.com/SupernaviX/rust-vb-platform.git", rev = "db60d12" }
+
+[build-dependencies]
+vb-graphics-build = { git = "https://github.com/SupernaviX/rust-vb-platform.git", rev = "db60d12" }
+vb-rt-build = { git = "https://github.com/SupernaviX/rust-vb-platform.git", rev = "db60d12" }
+
+[profile.release]
+debug = true
+lto = "fat"
